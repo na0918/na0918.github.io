@@ -1,0 +1,58 @@
+---
+layout: post
+date: 2021-03-10 110401 +0900
+title: "HIHELLO"
+---
+
+# 타조
+
+* 제목
+* 볼드체, 이탤릭체
+* 리스트
+* 링크
+* 이미지
+
+위키백과, 우리모두의 백과사전
+
+볼드체 : **타조**는 아프리카의 날지 못하는 새로, 타조과에 속하는 종이다.
+
+이탤릭체 : *struthio camelus*
+
+# Header1
+
+## Header2
+
+### Header3
+
+#### Header4
+
+##### Header5
+
+###### Header6
+
+
+* 어원
+* 특징
+* 번식 및 산란
+* 천적
+* 알
+
+1. 어원
+2. 특징
+3. 번식 및 산란
+
+설명을 쓰다가 `variable`, `_post`, `단어`
+
+```c
+#include <stdio.h>
+
+int main() {
+      retrun 0;
+}
+```
+main 함수는 어떤 역할을 한다.
+
+
+[`여기를 누르세요`](https://naver.com)
+
+![](https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAyMDZfNjgg%2FMDAxNjEyNjE3MTU0OTE4.TrtnIBjvCZd2-FeP_mXLHVv7VQNiOqA6eHDbASsFXm0g.15pDiT9RCsKhykZyvXtkXsNyui_1qEvjLOaiOiwOdC0g.JPEG.jmc0522%2Fc78842d68d1865858a9a09a9e3c72550.jpg&type=a340)
