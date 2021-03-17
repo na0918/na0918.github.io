@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 date: 2021-03-10 110401 +0900
 title: "HIHELLO"
 ---
