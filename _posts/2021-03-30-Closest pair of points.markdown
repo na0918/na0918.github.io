@@ -4,7 +4,7 @@ date: 2021-03-30 110401 +0900
 title: "Closest pair of points"
 ---
 
-##컴퓨터알고리즘 과제 1
+## 컴퓨터알고리즘 과제 1
 
 ```java
 import java.util.Random;
