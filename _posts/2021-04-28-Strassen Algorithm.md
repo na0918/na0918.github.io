@@ -72,32 +72,32 @@ public class Strassen {
         if (n == 1)
             C[0][0] = A[0][0] * B[0][0];
         else {
-            int[][] A11 = new int[n/2][n/2];
-            int[][] A12 = new int[n/2][n/2];
-            int[][] A21 = new int[n/2][n/2];
-            int[][] A22 = new int[n/2][n/2];
-            int[][] B11 = new int[n/2][n/2];
-            int[][] B12 = new int[n/2][n/2];
-            int[][] B21 = new int[n/2][n/2];
-            int[][] B22 = new int[n/2][n/2];
+            int[][] A1 = new int[n/2][n/2];
+            int[][] A2 = new int[n/2][n/2];
+            int[][] A3 = new int[n/2][n/2];
+            int[][] A4 = new int[n/2][n/2];
+            int[][] B1 = new int[n/2][n/2];
+            int[][] B2 = new int[n/2][n/2];
+            int[][] B3 = new int[n/2][n/2];
+            int[][] B4 = new int[n/2][n/2];
 
-            spl(A, A11, 0 , 0);
-            spl(A, A12, 0 , n/2);
-            spl(A, A21, n/2, 0);
-            spl(A, A22, n/2, n/2);
+            spl(A, A1, 0 , 0);
+            spl(A, A2, 0 , n/2);
+            spl(A, A3, n/2, 0);
+            spl(A, A4, n/2, n/2);
 
-            spl(B, B11, 0 , 0);
-            spl(B, B12, 0 , n/2);
-            spl(B, B21, n/2, 0);
-            spl(B, B22, n/2, n/2);
+            spl(B, B1, 0 , 0);
+            spl(B, B2, 0 , n/2);
+            spl(B, B3, n/2, 0);
+            spl(B, B4, n/2, n/2);
 
-            int [][] P = mul(add(A11, A22), add(B11, B22));
-            int [][] Q = mul(add(A21, A22), B11);
-            int [][] R = mul(A11, sub(B12, B22));
-            int [][] S = mul(A22, sub(B21, B11));
-            int [][] T = mul(add(A11, A12), B22);
-            int [][] U = mul(sub(A21, A11), add(B11, B12));
-            int [][] V = mul(sub(A12, A22), add(B21, B22));
+            int [][] P = mul(add(A1, A4), add(B1, B42));
+            int [][] Q = mul(add(A3, A4), B1);
+            int [][] R = mul(A1, sub(B2, B4));
+            int [][] S = mul(A4, sub(B3, B1));
+            int [][] T = mul(add(A1, A2), B4);
+            int [][] U = mul(sub(A3, A1), add(B1, B2));
+            int [][] V = mul(sub(A2, A4), add(B3, B4));
 
 
             int [][] C11 = add(sub(add(P, S), T), V);
