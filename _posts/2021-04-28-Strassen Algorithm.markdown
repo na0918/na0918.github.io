@@ -90,14 +90,12 @@ public class Strassen {
     public static void main (String[] args) {
         Scanner scan = new Scanner(System.in);
         Random random = new Random();
-        System.out.println("Strassen Multiplication Algorithm Test\n");
-
         Strassen s = new Strassen();
 
-        System.out.println("Enter order n :");
+        System.out.println("행과 열의 개수(n) :");
         int N = scan.nextInt();
 
-        System.out.println("matrix 1");
+        System.out.println("행렬 1");
         int[][] A = new int[N][N];
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
@@ -106,9 +104,8 @@ public class Strassen {
             }
             System.out.println();
         }
-
-
-        System.out.println("\nmatrix 2");
+        
+        System.out.println("\n행렬 2");
         int[][] B = new int[N][N];
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
@@ -120,7 +117,7 @@ public class Strassen {
 
         int[][] C = s.multiply(A, B);
 
-        System.out.println("\nProduct of matrices A and  B : ");
+        System.out.println("\n행렬의 곱(A와B) : ");
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++)
                 System.out.print(C[i][j] +" ");
