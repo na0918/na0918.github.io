@@ -15,9 +15,11 @@ title: "Strassen Algorithm"
 4. 슈트라센 알고리즘은 정사각행렬에 대해서만 처리가 가능하기 때문에 행렬의 곱셈을 하기 위해서는 정사각행렬로 변경하는 작업이 필요하다.
 
 ### 슈트라센 알고리즘의 시간복잡도
-![KakaoTalk_20210428_203321848](https://user-images.githubusercontent.com/80372995/116397369-7a2d1100-a861-11eb-9f00-79cbc995cd2c.jpg)
+![KakaoTalk_20210428_203321848](https://user-images.githubusercontent.com/80372995/116397864-12c39100-a862-11eb-9a41-1980aef8fe3b.jpg)
 
-![KakaoTalk_20210428_203322073](https://user-images.githubusercontent.com/80372995/116397406-85803c80-a861-11eb-983a-707715d090ef.jpg)
+
+![KakaoTalk_20210428_203322073](https://user-images.githubusercontent.com/80372995/116397912-1f47e980-a862-11eb-838a-0ce6a5e7076e.jpg)
+
 
 ## 소스코드
 
